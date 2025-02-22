@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("https://facebook-rso3.onrender.com");
+const socket = io("https://facebook-c0wn.onrender.com");
 
 function App() {
   const [mensaje, setMensaje] = useState("");
