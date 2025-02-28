@@ -75,7 +75,7 @@ function App() {
         )}
       </div>
       <input
-        type="text"
+        type="file"
         value={mensaje}
         onChange={(e) => setMensaje(e.target.value)}
         placeholder="Escribe un mensaje..."
